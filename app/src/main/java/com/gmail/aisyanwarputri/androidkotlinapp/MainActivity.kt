@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         tvCounter.text = "1"
     }
+    //fungsi
 
     fun addNumber(v: View) {
         val currVal = tvCounter.text.toString().toInt()
